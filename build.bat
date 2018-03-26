@@ -1,0 +1,1 @@
+del /S /Q dist && em++ main.cpp -O3 --closure 1 -s WASM=1 -o main.js
